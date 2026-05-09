@@ -3,7 +3,7 @@
   "buildCommand": "npm run build",
   "functions": {
     "dist/server/index.js": {
-      "runtime": "@vercel/node"
+      "runtime": "nodejs20.x"
     }
   },
   "routes": [
